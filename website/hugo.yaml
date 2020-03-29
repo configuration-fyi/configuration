@@ -6,7 +6,6 @@ enableGitInfo: true
 enableEmoji: true
 pygmentsCodeFences: true
 pygmentsUseClasses: true
-disableLiveReload: true
 googleAnalytics: "TODO"
 
 # NOTE: Hugo is expected to run from `website`
