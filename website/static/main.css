@@ -1,9 +1,9 @@
 .bg-purple {
-    background-color: #6D41FF;
+    background-color: #A4C2F7;
 }
 
 .color-purple {
-    color: #6D41FF;
+    color: #A4C2F7;
 }
 
 .navbar-brand img {
@@ -21,18 +21,18 @@
 }
 
 .btn-outline-secondary {
-    color: #6D41FF;
-    border-color: #6D41FF;
+    color: #A4C2F7;
+    border-color: #A4C2F7;
 }
 
 .btn-outline-secondary:hover, .btn-outline-secondary:active {
     color: #fff;
-    background-color: #6D41FF !important;
-    border-color: #6D41FF !important;
+    background-color: #A4C2F7 !important;
+    border-color: #A4C2F7 !important;
 }
 
 a {
-    color: #6D41FF;
+    color: #A4C2F7;
 }
 
 pre {
@@ -40,7 +40,7 @@ pre {
 }
 
 .list-group-item-config {
-    color: #6D41FF;
+    color: #A4C2F7;
     border: 0;
     padding: 0.5rem;
     background-color: transparent;
@@ -48,7 +48,7 @@ pre {
 }
 
 .list-group-item-config:hover {
-    color: #6D41FF;
+    color: #A4C2F7;
 }
 
 .img-adopter {
