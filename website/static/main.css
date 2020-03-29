@@ -39,7 +39,7 @@ pre {
     padding: 1rem;
 }
 
-.list-group-item-thanos {
+.list-group-item-config {
     color: #6D41FF;
     border: 0;
     padding: 0.5rem;
@@ -47,7 +47,7 @@ pre {
     text-indent: 1rem;
 }
 
-.list-group-item-thanos:hover {
+.list-group-item-config:hover {
     color: #6D41FF;
 }
 
