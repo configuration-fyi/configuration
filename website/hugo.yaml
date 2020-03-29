@@ -1,0 +1,23 @@
+title: "Configuration.fyi"
+# This is controlled by makefile: baseURL
+languageCode: "en-us"
+
+enableGitInfo: true
+enableEmoji: true
+pygmentsCodeFences: true
+pygmentsUseClasses: true
+disableLiveReload: true
+googleAnalytics: "TODO"
+
+# NOTE: Hugo is expected to run from `website`
+contentDir: "public"
+archetypeDir: "archetypes"
+layoutDir: "layouts"
+publishDir: "public"
+staticDir: "static"
+
+params:
+  SlackInvite: "https://slack.cncf.io"
+  GithubUser: "bwplotka"
+  GithubProject: "configuration"
+  Description: "Comparison of modern open source languages, patterns and solutions for configuration management."
