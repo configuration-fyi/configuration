@@ -9,7 +9,7 @@ pygmentsUseClasses: true
 googleAnalytics: "TODO"
 
 # NOTE: Hugo is expected to run from `website`
-contentDir: "public"
+contentDir: "copied"
 archetypeDir: "archetypes"
 layoutDir: "layouts"
 publishDir: "public"

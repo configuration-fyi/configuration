@@ -27,13 +27,20 @@ define require_clean_work_tree
 
 endef
 
+web-pre-process:
+	@rm -rf $(WEB_DIR)/copied > /dev/null
+	@mkdir $(WEB_DIR)/copied
+	@cp comparison.md $(WEB_DIR)/copied/
+	@cp showcases.md $(WEB_DIR)/copied/
+	@cp contributing.md $(WEB_DIR)/copied/
+
 .PHONY: web
-web: $(HUGO)
+web: $(HUGO) web-pre-process
 	@echo ">> building documentation website"
 	# TODO(bwplotka): Make it --gc
 	@cd $(WEB_DIR) && HUGO_ENV=production $(HUGO) --minify -v --config hugo.yaml -b $(WEBSITE_BASE_URL)
 
-web-serve: $(HUGO)
+web-serve: $(HUGO) web-pre-process
 	@echo ">> serving documentation website"
 	@cd $(WEB_DIR) && $(HUGO) --config hugo.yaml -v server
 
