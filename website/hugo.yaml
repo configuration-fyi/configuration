@@ -6,7 +6,7 @@ enableGitInfo: true
 enableEmoji: true
 pygmentsCodeFences: true
 pygmentsUseClasses: true
-googleAnalytics: "TODO"
+googleAnalytics: "UA-161996376-1"
 
 # NOTE: Hugo is expected to run from `website`
 contentDir: "copied"
