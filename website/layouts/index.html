@@ -2,19 +2,70 @@
 <div class="container-fluid">
     <div class="row py-3 py-lg-5">
         <div class="col col-sm-1 col-md-6 offset-md-3 col-lg-4 offset-lg-4 text-center">
-            <img class="img-fluid" style="max-width: 60%" src="settings-light.svg" alt="Settings Logo"/>
+            <img class="img-config" src="settings-light.svg" alt="Settings Logo"/>
         </div>
     </div>
     <div class="row py-3 pb-lg-5">
         <div class="col text-center">
-            <h3 class="mb-3">Open source</h3>
+            <h3 class="mb-3">The community driven comparison of modern open source configuration management languages, patterns and solutions</h3>
+            <h5>Join our efforts: Contribute now!</h5>
             <ul class="list-inline mb-0">
+                <li class="list-inline-item my-3">
+                    <a href="{{ "/comparison" | relURL }}" class="btn btn-outline-secondary">
+                        <i class="mr-1 fas fa-fw fa-compress-arrows-alt"></i> Comparison
+                    </a>
+                </li>
+                <li class="list-inline-item my-3">
+                    <a href="{{ "/showcases" | relURL }}" class="btn btn-outline-secondary">
+                        <i class="mr-1 fas fa-fw fa-eye"></i> Showcases
+                    </a>
+                </li>
+                <li class="list-inline-item my-3">
+                    <a href="{{ "/contributing" | relURL }}" class="btn btn-outline-secondary">
+                        <i class="mr-1 fas fa-fw fa-hands-helping"></i> Contributing
+                    </a>
+                </li>
+                <li class="list-inline-item my-3">
+                    <a href="https://slack.cncf.io" class="btn btn-outline-secondary">
+                        <i class="mr-1 fab fa-fw fa-slack"></i> #configuration
+                    </a>
+                </li>
                 <li class="list-inline-item my-3">
                     <a href="https://github.com/{{ .Site.Params.GithubUser }}/{{ .Site.Params.GithubProject }}" class="btn btn-outline-secondary">
                         <i class="mr-1 fab fa-fw fa-github"></i> Github
                     </a>
                 </li>
             </ul>
+        </div>
+    </div>
+</div>
+<div class="container-fluid bg-light">
+    <div class="row">
+        <div class="col-12 col-md-6 col-lg text-center py-5">
+            <i class="fas fa-lightbulb fa-5x db mb-3"></i>
+            <h4 class="font-weight-bold">Goal</h4>
+            <p>The goal of this project is to allow everyone to explore and find open source solution for the configuration management that meets various requirements.
+                Open source community does not have a clear solution yet and mistakes are overlooked. We want to fix it by providing overview of what we have now and
+            what might be missing.</p>
+        </div>
+        <div class="col-12 col-md-6 col-lg text-center py-5">
+            <i class="fas fa-cloud fa-5x db mb-3"></i>
+            <h4 class="font-weight-bold">Cloud Native</h4>
+            <p>We are aiming for the configuration languages and patterns that helps to operate a reliable production infrastructure on scale.
+            We explored the mandatory and optional requirements. We want to provide factual comparison on each of solution helps to solve the same problems for a fair comparison.
+            See comparision and showcases for details!</p>
+        </div>
+        <div class="col-12 col-md-6 col-lg text-center py-5">
+            <i class="fas fa-people-carry fa-5x db mb-3"></i>
+            <h4 class="font-weight-bold">Open Source</h4>
+            <p>We believe in open source and sharing. Everything in this project is free and open. It is mean to be community driven, so your help is wanted! We are all
+                together seeking the best solution for our needs. This also means that the solution we are seeking for has to be open source as well. No hidden sales, or advertisement.</p>
+        </div>
+        <div class="col-12 col-md-6 col-lg text-center py-5">
+            <i class="fas fa-users fa-5x db mb-3"></i>
+            <h4 class="font-weight-bold">Authors</h4>
+            <p>We are group of passionated people, experienced developers and SREs from different companies. We have different opinions, we maintain different cloud native open source projects.
+                But we hare the same goal. We are doing this free and for a good cause! Want to give feedback, help us or contribute? Reach us!</p>
         </div>
     </div>
 </div>
