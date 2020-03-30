@@ -16,7 +16,6 @@ publishDir: "public"
 staticDir: "static"
 
 params:
-  SlackInvite: "https://slack.cncf.io"
-  GithubUser: "bwplotka"
+  GithubUser: "configuration-fyi"
   GithubProject: "configuration"
   Description: "Comparison of modern open source languages, patterns and solutions for configuration management."

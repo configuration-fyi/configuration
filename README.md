@@ -11,3 +11,12 @@ See our website: https://configuration.netlify.com/
 * Apache 2
 * Logo: https://www.flaticon.com/free-icon/settings_660396
 
+## Maintainers
+
+* [@bwplotka](https://bwplotka.dev)
+* [@miekg](http://miek.nl/)
+
+
+## Initial Author
+
+[@bwplotka](https://bwplotka.dev)
