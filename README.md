@@ -13,6 +13,7 @@ See our website: https://configuration.fyi
 
 ## Maintainers
 
+* [@brancz](https://brancz.com/)
 * [@bwplotka](https://bwplotka.dev)
 * [@miekg](http://miek.nl/)
 
