@@ -1,10 +1,10 @@
 # Configuration
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/1c9513b1-6589-477d-9c59-6b8e5f0dcba5/deploy-status)](https://app.netlify.com/sites/configuration/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/717976bd-e491-47ca-82fd-fd534425fb12/deploy-status)](https://app.netlify.com/sites/configuration/deploys)
 
 Community driven comparison of modern open source configuration management languages, patterns and solutions.
 
-See our website: https://configuration.netlify.com/
+See our website: https://configuration.fyi
 
 ## Licence & Copyright
 
