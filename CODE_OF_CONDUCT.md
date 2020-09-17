@@ -47,7 +47,7 @@ may be further defined and clarified by project maintainers.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting
-the project team members (e.g @bplotka @domgreen, @Fabian Reinartz) at Thanos slack workspace.
+the project team members , who by the time of writing are [@bwplotka](https://github.com/bwplotka/), [@brancz](https://github.com/brancz/), [@metalmatze](https://github.com/metalmatze/), [@miekg](https://github.com/miekg/).
 The project team will review and investigate all complaints,
 and will respond in a way that it deems appropriate to the circumstances.
 The project team is obligated to maintain confidentiality with regard to the
